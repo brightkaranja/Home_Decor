@@ -1,0 +1,178 @@
+
+ 
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.logo1 {
+    height: 50px;
+    margin-left: 80px;
+}
+.navigation > a
+{
+    margin-left: 1cm;
+    text-decoration: none;
+    color: #333;
+
+}
+
+
+.nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: 40px;
+    text-decoration: none;
+    color: #333;
+}
+.icons {
+    height: 25px;
+    margin-left: 75px;
+}
+.home-page{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 12px 5px 12px;
+    margin-bottom: 40px;
+}
+.home1{
+    font-size: 30px;
+    margin: 0;
+    margin-left: 99px;
+    width: 498px;
+    margin-right: -85px;
+    padding: 40px 0px;
+}
+
+#nam{
+    font-size: 18px;
+
+}
+#home{
+    border: dashed 3px;
+    border-color: black;
+
+
+}
+.button{
+    padding:5px;
+    gap: 55px;
+}
+
+.one1{
+    background-color: black;
+    color: white;
+    border-radius: 50px;
+    height: 38px;
+    width: 25%;
+}
+.two2{
+    border-radius: 50px;
+    background-color:grey;
+}
+.amount{
+    display: flex;
+    margin-right: -155px;
+    gap: 50px;
+    font-size: 15px;
+}
+.logos{
+    display: flex;
+    gap: 35px;
+    font-size: 25px;
+    margin-left: 5px;
+    align-content: center;
+    width: 100%;
+    padding: 5px 5px 5px 5px;
+}
+#ikea{
+    font-family: "Chango";
+
+}
+#diptyque{
+    font-family: "Newsreader";
+}
+#desenio{
+    font-family: "Comfortaa";
+}
+#benuta{
+    font-family: "Mitr";
+}
+#westwink{
+    font-family: "Libre Caslon Display";
+}
+.adverts{
+    display: flex;
+    gap: 25px;
+    margin-left: 5px;
+    border: solid #333;
+    width: 100%;
+}
+#head2{
+    margin-left: 80px;
+}
+#new{
+    margin-left: 0cm;
+    color: red;
+    padding-bottom: 5cm;
+}
+#imt
+{
+    margin-left: 3.5cm;
+}
+.restyle
+{
+    text-align: center;
+    margin: 80px;
+    margin-top: 8%;
+}
+.trend
+{
+display: flex;
+margin-bottom: 8%;
+}
+.trendy{
+    margin-left: 5%;
+}
+#shopnow
+{
+    border-radius: 50px;
+    height: 38px;
+    width: 25%;
+}
+#shopnow1
+{
+    border-radius: 50px;
+    height: 38px;
+    width: 85px;
+}
+.offer
+{
+    display: flex;
+}
+.shopping{
+
+    margin: 80px;
+}
+.icons
+{
+    display: flex;
+    gap: 35px;
+}
+.rewiewstest
+{
+    margin-top: 30px;
+}
+.content1
+{
+    display: flex;
+}
+.footer-columns
+{
+    display: flex;
+    gap: 35px;
+}

@@ -1,14 +1,36 @@
-
- 
-
+.container
+{
+    border: solid #333;
+    width: 75%;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    padding: 8%;
+    position: relative;
+    object-fit: contain;
+    overflow: hidden;
+}
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
 }
-
-.logo1 {
+.shadow
+{
+    position: absolute;
+    overflow: hidden;
+    width: 35%;
+    height: 10%;
+    background-color: #000;
+    transform: rotate(-25deg);
+    top: -1%;
+    right: -5%;
+    border-radius: 15%;
+}
+.logo1 
+{
     height: 50px;
     margin-left: 80px;
 }
@@ -17,29 +39,32 @@ header {
     margin-left: 1cm;
     text-decoration: none;
     color: #333;
-
 }
-
-
-.nav ul {
+.nav ul
+ {
     list-style: none;
     display: flex;
     margin-left: 40px;
     text-decoration: none;
     color: #333;
 }
-.icons {
-    height: 25px;
-    margin-left: 75px;
-}
-.home-page{
+.home-page
+{
     display: flex;
     align-items: center;
-    justify-content: space-between;
     padding: 0px 12px 5px 12px;
     margin-bottom: 40px;
+    gap: 20%;
+    z-index: 1;
+    position: relative;
+    margin-top: -1%;
 }
-.home1{
+svg{
+   position: relative;
+   left: 70%;
+}
+.home1
+{
     font-size: 30px;
     margin: 0;
     margin-left: 99px;
@@ -47,34 +72,44 @@ header {
     margin-right: -85px;
     padding: 40px 0px;
 }
-
-#nam{
+#nam
+{
     font-size: 18px;
-
 }
-#home{
+#home
+{
     border: dashed 3px;
     border-color: black;
-
-
 }
-.button{
+.button
+{
     padding:5px;
     gap: 55px;
 }
-
-.one1{
+.one1
+{
     background-color: black;
     color: white;
     border-radius: 50px;
-    height: 38px;
+    height: 58px;
     width: 25%;
 }
-.two2{
-    border-radius: 50px;
+#play
+{
+    border: #333;
     background-color:grey;
+    padding: 0.05cm;
+    border-radius: 15%;
+    size: 1px;
+    width: 20px;
+    height: 25px;
 }
-.amount{
+#watchvideo
+{
+    font-size: 17px;
+}
+.amount
+{
     display: flex;
     margin-right: -155px;
     gap: 50px;
@@ -84,12 +119,13 @@ header {
     display: flex;
     gap: 35px;
     font-size: 25px;
-    margin-left: 5px;
+    margin-left: 9%;
     align-content: center;
     width: 100%;
-    padding: 5px 5px 5px 5px;
+    align-items: flex-end;
+    /* padding: 10px; */
 }
-#ikea{
+#ikea{  
     font-family: "Chango";
 
 }
@@ -107,10 +143,11 @@ header {
 }
 .adverts{
     display: flex;
-    gap: 25px;
-    margin-left: 5px;
-    border: solid #333;
+    gap: 3cm;
+    margin-left: 9%;
     width: 100%;
+    size: 3cm;
+    align-items: flex-end;
 }
 #head2{
     margin-left: 80px;
@@ -119,6 +156,13 @@ header {
     margin-left: 0cm;
     color: red;
     padding-bottom: 5cm;
+}
+.sales
+{
+    display: flex;
+    gap: 50%;
+    margin-left: 2.5%;
+    margin-bottom: 1cm;
 }
 #imt
 {
@@ -129,14 +173,22 @@ header {
     text-align: center;
     margin: 80px;
     margin-top: 8%;
+    font-size: 20px;
+}
+#caret_left
+{
+    color: #c0b1b1;
 }
 .trend
 {
 display: flex;
 margin-bottom: 8%;
+margin-left: 8%;
+gap: 200px;
 }
 .trendy{
     margin-left: 5%;
+    font-size: 20px;
 }
 #shopnow
 {
@@ -153,26 +205,61 @@ margin-bottom: 8%;
 .offer
 {
     display: flex;
+    margin-left: 8%;
+    gap: 200px;
 }
-.shopping{
+.offer1
+{
+    font-size: 20px;
+}
 
+.shopping{
+    font-size: 20px;
     margin: 80px;
+    text-align: center;
 }
 .icons
 {
     display: flex;
-    gap: 35px;
-}
-.rewiewstest
-{
-    margin-top: 30px;
+    gap: 3CM;
+    font-size: 20px;
+    margin-left: 8%;
 }
 .content1
 {
     display: flex;
+    margin-top: -18%;
+    font-size: 20px;
 }
 .footer-columns
 {
     display: flex;
     gap: 35px;
+    margin-top: 58%;
+    margin-left: -120%;
+    padding: 15%;
+}
+.review
+{
+    font-size: 20px;
+    padding: 25%;
+    margin-top: -13%;
+}
+#text1
+{
+    font-size: 20px;
+}
+.copy1
+{
+    margin-top: 50%;
+    margin-left: 10px; 
+}
+.arrow
+{
+    display: flex;
+    gap: 10cm;
+}
+#arrw
+{
+    margin-top: 20px;
 }

@@ -11,11 +11,22 @@
     object-fit: contain;
     overflow: hidden;
 }
+@font-face {
+    font-family: cara;
+    src: url(image/MacondoSwashCaps-Regular.ttf);
+}
+#cara{
+    font-family: cara;
+    margin-left: 7%;
+}
 header {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 20px;
+}
+#fa-user{
+    color: white;
 }
 .shadow
 {
@@ -184,7 +195,7 @@ svg{
 display: flex;
 margin-bottom: 8%;
 margin-left: 8%;
-gap: 200px;
+gap: 170px;
 }
 .trendy{
     margin-left: 5%;
